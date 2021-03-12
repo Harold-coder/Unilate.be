@@ -1,0 +1,173 @@
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	
+}
+
+/*header____________________________________________*/
+.navbar{
+	background-color:rgb(251,252,252);
+	height: 100px;
+	border-bottom: 1px solid #999;
+	border-top: 1px solid #999;
+}
+
+
+#Gros-titre{
+ 	
+	font-family: 'Crete Round, serif';
+	font-size: 47px;
+	color: #1A8EFF;
+	float: left;
+	padding-top: 28px;
+	text-shadow: 1px 1px 4px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin:0 auto;
+	
+
+}
+a:hover{
+	text-decoration: none;
+}
+
+#pright{
+	float: right;
+	color: #FFF;
+	border: 1px solid black;
+	background: #191C1F;
+	padding: 10px;
+	margin-top: 30px;
+	border-radius: 5px;
+	font-family: "Source Sans Pro"
+	margin-right: 8%;
+}
+
+
+/*SECTION1_________________________________________________*/
+#section1{
+    background: rgb(251,252,252);
+    padding-top: 60px;
+    height: 650px;
+    
+
+    
+}
+.formulaire{
+
+	width: 400px;
+	margin:0 auto;
+	color: white;
+	background: #fff;
+    padding: 30px 30px 15px 30px;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	
+
+}
+  
+h2{
+   width: 41%;
+  margin: 0 auto;
+   padding-bottom: 15px;
+   color: #050505;
+}
+label{
+	 color: #050505;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.connexion[type=submit] {
+    background-color: #1A8EFF;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0 25px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.connexion[type=submit]:hover {
+    background-color: white;
+    color: #30B1DE;
+    border: 1px solid #30B1DE;
+}
+
+.inscription[type=submit] {
+	
+    background-color: white;
+    color:#1BC313 ;
+    padding: 14px 20px;
+    margin-left:65px;
+    margin-bottom: 30px;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    border: 1px solid #1BC313;
+	border-radius: 3px;
+}
+.inscription[type=submit]:hover {
+    background-color:#1BC313;
+    color: white;
+   
+}
+.reponse{
+	color: red;
+	padding-top: 10px;
+}
+#oublié{
+	color: #191C1F;
+	text-decoration: underline;
+	margin-top: 8px;
+}
+/*FOOTER_______________________________________________*/
+
+
+footer{
+	height: 230px;
+	background-color:rgb(240,243,244);
+}
+#Unilate{
+
+	font-family: 'Crete Round, serif';
+	font-size: 45px;
+	color:#191C1F;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 50px; 
+	text-shadow: 1px 1px 4px;
+	letter-spacing: 1px;
+	
+
+}
+.copyright{
+	text-align: center;
+	font-weight: bold;
+	padding-top: 35px;
+	color:#444;
+}
